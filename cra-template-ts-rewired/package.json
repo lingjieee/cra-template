@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-typescript",
-  "version": "1.0.0",
+  "name": "cra-template-ts-rewired",
+  "version": "0.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,19 +11,18 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template-typescript"
+    "url": "https://github.com/lingjieee/cra-template.git",
+    "directory": "cra-template-ts-rewired"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/lingjieee/cra-template/issues"
   },
   "files": [
     "template",
     "template.json"
-  ],
-  "gitHead": "9a817dd0d780ec401afb1f99dbc0f3bdbcd51683"
+  ]
 }
