@@ -10,7 +10,7 @@ const {
   useBabelRc
 } = require("customize-cra");
 
-removeUnnecessaryPlugin = () => config => {
+const removeUnnecessaryPlugin = () => config => {
   config.plugins = config.plugins.filter(function(plugin) {
     return plugin.constructor.name !== 'ManifestPlugin' && plugin.constructor.name !== 'GenerateSW';
   });
